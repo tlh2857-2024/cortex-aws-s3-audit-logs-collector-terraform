@@ -1,6 +1,6 @@
-# Cortex XSIAM AWS CloudTrail Integration (Assumed Role)
+# Cortex Cloud AWS S3 Audit Logs Collector Integration (Assumed Role)
 
-This Terraform configuration sets up AWS resources to ingest CloudTrail audit logs into Cortex XSIAM using the assumed role option.
+This Terraform configuration sets up AWS resources to ingest CloudTrail audit logs into Cortex Cloud using S3 Collector with the assumed role option.
 
 ## Files
 - `provider.tf`: AWS provider configuration
