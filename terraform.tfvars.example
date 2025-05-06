@@ -1,0 +1,5 @@
+s3_bucket_name      = "your-cloudtrail-bucket-name"
+sqs_queue_name      = "your-cloudtrail-sqs-queue"
+role_name           = "CortexAssumeRoleAuditLogs"
+cortex_account_id   = "006742885340" # Replace with actual Cortex AWS Account ID, the Account ID as 006742885340. When using a Cortex XDR FedRAMP environment, specify the Account ID as 685269782068.
+external_id         = "your-external-id" # The Cortex XDR Cloud ID, a randomly generated UUID that is used to enable the trust relationship in the role's trust policy.
