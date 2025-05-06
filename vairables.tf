@@ -22,3 +22,9 @@ variable "external_id" {
   description = "External ID provided by Cortex."
   type        = string
 }
+
+variable "aws_region" {
+  description = "AWS region to deploy resources in."
+  type        = string
+  default     = "eu-west-1"
+}

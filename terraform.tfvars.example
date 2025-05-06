@@ -1,3 +1,4 @@
+aws_region          = "eu-west-1"
 s3_bucket_name      = "your-cloudtrail-bucket-name"
 sqs_queue_name      = "your-cloudtrail-sqs-queue"
 role_name           = "CortexAssumeRoleAuditLogs"
