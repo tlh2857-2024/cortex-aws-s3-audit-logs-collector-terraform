@@ -23,7 +23,8 @@ data "aws_iam_policy_document" "cortex_policy" {
     ]
     resources = [
       aws_s3_bucket.cloudtrail_logs.arn,
-      "${aws_s3_bucket.cloudtrail_logs.arn}/*"
+      "${aws_s3_bucket.cloudtrail_logs.arn}/AWSLogs/11111/*",
+      "${aws_s3_bucket.cloudtrail_logs.arn}/AWSLogs/22222/*"
     ]
   }
   statement {
